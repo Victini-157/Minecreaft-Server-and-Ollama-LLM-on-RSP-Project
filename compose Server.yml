@@ -1,0 +1,25 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server:latest
+    pull_policy: daily
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+      - "25575:25575"
+    environment:
+      EULA: "TRUE"
+      ENABLE_RCON : "TRUE"
+      RCON_PASSWORD : "teinf"
+      RCON_PORT: 25575
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      - ./minecraft:/data
+  nodered:
+    image: nodered/node-red:latest
+    environment:
+      - TZ=Europe/Luxembourg
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./nodered:/data
