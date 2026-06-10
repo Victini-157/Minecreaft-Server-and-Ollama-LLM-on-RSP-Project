@@ -1,7 +1,7 @@
 # Project Title
 Minecraft Server and Ollama LLM on RSP Project
 ## Table of Contents
-
+-<About>(#About)
 ## About
 
 ## Features
@@ -33,8 +33,6 @@ docker build -t my-app . (Change "my-app" to whatever name you like)
 docker run -p 25575 :25575  my-app 
 
 (Don't change the .yml file yet, you'll see why)
-
-
 
 On Linux (Ubuntu or debian and based only):
 
@@ -133,9 +131,11 @@ It is also a great ai front end, as you can put the bot in your private discord 
 To configure it, use the Nodes on the left of the screen.
 You can even open a new flow in NodeRED incase you don't want to touch it and experiment.
 
-## License
-
 ## Authors and Acknowledgments
+Kimiko/Victini-157
+My networking Teacher
+
+
 
 
 
