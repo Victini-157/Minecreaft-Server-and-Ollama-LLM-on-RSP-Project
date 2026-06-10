@@ -122,13 +122,16 @@ Once you have clicked it, click on the arrow that is pointing down, then Dashboa
 Then on the upper part of the menu you'll see "My Dashboard", look on the left, there is a button called "open dashboard", click on it and you have the Dashboard open.
 
 
-
-
 ## Usage
+This can be useful in many ways.
+You have a Minecraft server that can be accessed to anyone in your local network, which means friends and family can all play on it no problem.
+With NodeRED you can expand it to fit what you want without any coding knowledge without any fear of breaking it.
+If you have specific commands or want something specfic in the Minecraft server, the ai can adapt your prompt without you needing to do research.
+It is also a great ai front end, as you can put the bot in your private discord server and use it like chatGPT.
 
 ## Configuration
-
-## Examples
+To configure it, use the Nodes on the left of the screen.
+You can even open a new flow in NodeRED incase you don't want to touch it and experiment.
 
 ## License
 
