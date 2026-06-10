@@ -1,8 +1,25 @@
 # Project Title
 Minecraft Server and Ollama LLM on RSP Project
 ## Table of Contents
--<About>(#About)
+[About](#about)
+[Features](#features)
+[Prerequisites](#prerequisites)
+[How to set everything up](#howto)
+[Setting up the dockers](#dockers)
+[Node RED Nodes](#nodered)
+[Set up the Ollama bot](#ollamabot)
+[Set up the Discord bot](#discordbot)
+[Set up the Minecraft server](#minecraftserver)
+
+[Usage](#usage)
+[Configuration](config)
+[Authors and Acknowledgments](#AaA)
+
 ## About
+This is a project that aims to use an Ollama LLM on a rasberry pi along with NodeRED and a Minecraft Server on seperate computer.
+Almost all of it is on a discord front-end to chat with the bot, ask questions and to output detailed commands to the minecraft server
+It also includes a dashboard that displays a multitude of information useful for the user
+All in all this project is for funsies.
 
 ## Features
 -Interactive Discord Bot
