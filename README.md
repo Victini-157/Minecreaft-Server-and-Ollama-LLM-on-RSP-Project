@@ -2,17 +2,27 @@
 Minecraft Server and Ollama LLM on RSP Project
 ## Table of Contents
 [About](#about)
+
 [Features](#features)
+
 [Prerequisites](#prerequisites)
+
 [How to set everything up](#howto)
+
 [Setting up the dockers](#dockers)
+
 [Node RED Nodes](#nodered)
+
 [Set up the Ollama bot](#ollamabot)
+
 [Set up the Discord bot](#discordbot)
+
 [Set up the Minecraft server](#minecraftserver)
 
 [Usage](#usage)
+
 [Configuration](config)
+
 [Authors and Acknowledgments](#AaA)
 
 ## About
