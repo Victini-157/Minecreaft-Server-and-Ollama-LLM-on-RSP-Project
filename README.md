@@ -93,15 +93,16 @@ Start everything up with:
 
 sudo docker compose up 
 
-(only works if ou are in the directory of the folder)
+(only works if you are in the directory of the folder)
 
 
 ## Node RED Nodes
+(Tip: If you donßt know where to look on any steps look in the Pictures for ReadMe folder for help)
 Before we begin make sure to download the libraries mentioned in Prerequisites.
 Click on the 3 bars on the upper right.
 Then click on "Settings".
 Then on "Palletes" and on the menu when you click on it, click "Install".
-Once the search bar, copy and paste each name of the library seperatly and install them.
+Once the search bar, copy and paste each name of the library seperatly and install them. 
 When you installed everything, make sure you put the flows.json file somewhere where you can find it.
 Click on the 3 lines again and click "Import".
 Then click on "Select a file to import" and select the flows.json file, then you'll have al the NODES you need.
